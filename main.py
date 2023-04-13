@@ -92,37 +92,37 @@ def emb(text, max_length=512):
     sentence_embedding = sentence_embedding.numpy()
     return sentence_embedding
 texts = []
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\AEHR.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text1 = file.read()
     texts.append(text1)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\BYD.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text2 = file.read()
     texts.append(text2)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\ALGM.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text3 = file.read()
     texts.append(text3)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\SGML.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text4 = file.read()
     texts.append(text4)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\TSLA.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text5 = file.read()
     texts.append(text5)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\TSLA_BYD_E.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text6 = file.read()
     texts.append(text6)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\TSLA_BYD_St.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text7 = file.read()
     texts.append(text7)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\TSLA_BYD_Sto.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text8 = file.read()
     texts.append(text8)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\EMR.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text9 = file.read()
     texts.append(text9)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\AMC.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text10 = file.read()
     texts.append(text10)
-with open(r'C:\Users\krish\OneDrive\Desktop\TEXT files for ML\NIO.txt', 'r') as file:
+with open("YOUR PATH", 'r') as file:
     text11 = file.read()
     texts.append(text11)
 similarity = []
