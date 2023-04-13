@@ -1,0 +1,7 @@
+If you would like to use chatGPT to get take the article and question and output an answer here is a prompt that works well
+
+I am going to give you an article and a question. Answer the question based only on information from the article. If the article does not provide information to answer the question just say "I do not have enough information to answer this question"
+
+Next input -> 
+Article: [TEXT]
+Question: [SELECTED QUESTION]
